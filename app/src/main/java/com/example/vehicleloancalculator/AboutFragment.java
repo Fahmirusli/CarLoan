@@ -1,5 +1,7 @@
 package com.example.vehicleloancalculator;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,12 +25,20 @@ public class AboutFragment extends Fragment {
         TextView tvCR = view.findViewById(R.id.tv_cr);
         TextView tvGithubUrl = view.findViewById(R.id.tv_github_url);
 
-        // Set author information - REPLACE WITH YOUR INFORMATION
+        // Set author information
         tvAuthorName.setText("MUHAMMAD FAHMI BIN RUSLI");
         tvMatricNo.setText("2023479866");
         tvCourse.setText("CS251");
-        tvCR.setText("@copyright by Fahmi");
-        tvGithubUrl.setText("https://github.com/yourusername/vehicle-loan-calculator");
+        tvCR.setText("@Copyright by Fahmi");
+
+        String githubUrl = "https://github.com/Fahmirusli/CarLoan.git";
+        tvGithubUrl.setText(githubUrl);
+
+        // Set OnClickListener to open the URL in a browser
+        tvGithubUrl.setOnClickListener(v -> {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl));
+            startActivity(browserIntent);
+        });
 
         return view;
     }
