@@ -60,7 +60,7 @@ The application uses the following formulas as per assignment requirements:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/vehicle-loan-calculator.git
+git clone https://github.com/Fahmirusli/CarLoan.git
 ```
 
 2. Open the project in Android Studio
