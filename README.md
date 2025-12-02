@@ -110,4 +110,4 @@ This project is developed for educational purposes as part of the ICT602 course 
 
 For any queries regarding this project:
 - Email: [2023479866@student.uitm.edu.my]
-- GitHub Issues: [https://github.com/yourusername/vehicle-loan-calculator/issues](https://github.com/yourusername/vehicle-loan-calculator/issues)
+- GitHub Issues: [https://github.com/Fahmirusli/CarLoan.git](https://github.com/Fahmirusli/CarLoan.git)
